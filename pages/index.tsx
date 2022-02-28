@@ -18,9 +18,9 @@ export default function Home({ posts }: Props) {
       <div className="flex items-center justify-between border-y border-black bg-yellow-400 py-10 lg:py-0">
         <div className="space-y-5 px-10 ">
           <h1 className="max-w-xl font-serif text-6xl">
-            <span className="mr-1 underline decoration-black decoration-4">
+            <span className="underline decoration-black decoration-4">
               Medium
-            </span>
+            </span>{' '}
             is a place to write, read and connect.
           </h1>
           <h2>
